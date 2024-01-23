@@ -1,0 +1,40 @@
+body {
+    padding-left: 10px;
+}
+
+#vendor-select {
+    position: absolute;
+    left: 70%;
+    font-size: x-large;    
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 25%;
+}
+
+.middle {
+    width: 40%;
+}
+
+.right {
+    width: 29%;
+}
+
+button {
+    /*width: 140px;*/
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(53, 68, 242);
+    color: white;
+    cursor: pointer; 
+ }
+html {
+    min-height: 100%;
+    background-image: linear-gradient(rgb(248, 180, 223), rgb(171, 120, 190));
+}

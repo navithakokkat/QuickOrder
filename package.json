@@ -1,0 +1,16 @@
+{
+  "name": "navithakokkat-a2",
+  "version": "1.0.0",
+  "description": "A webpage for purchasing Office Supplies.",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Navitha Kokkat",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}

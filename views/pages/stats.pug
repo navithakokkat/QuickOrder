@@ -1,0 +1,25 @@
+html
+    head
+        title Home Page	
+        link(rel="stylesheet" href="styles.css")
+    body
+        
+        include ../partials/header
+
+        div#main
+            h1 Vendor Sales Status Summary!
+            br
+            table
+                tr
+                    th Vendor
+                    th # Orders
+                    th Average
+                    th Popular
+                each storeName in Object.keys(orders)
+                    tr
+                    td= storeName
+                    td= orders[storeName]
+                    td= average[storeName]
+                    td= popular[storeName]
+
+            

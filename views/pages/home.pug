@@ -1,0 +1,19 @@
+html
+    head
+        title Home Page	
+        link(rel="stylesheet" href="styles.css")
+    body
+        
+        include ../partials/header
+
+        div#main
+            h1 Welcome to the Office Supplies Store!
+            br
+            img(src='officeSupplies.png' alt='officeSupplies' style='width:40%; height:40%')
+            br
+            br
+            if Object.keys(featuredStores).length > 0
+                H2 Featured Stores:
+                ul
+                each store in featuredStores
+                    li #{store.name}            
